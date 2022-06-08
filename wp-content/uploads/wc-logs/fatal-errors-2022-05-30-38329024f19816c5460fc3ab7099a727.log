@@ -1,0 +1,17 @@
+2022-05-30T10:28:43+00:00 CRITICAL Uncaught Error: Call to undefined function sanitize_text_filed() in C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-content\plugins\contacte\contacte.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\class-wp-hook.php(307): example_form_capture('')
+#1 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-content\themes\botiga\header.php(20): wp_head()
+#5 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-content\themes\botiga\page.php(15): get_header()
+#9 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress-5.9.3\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown dans C:\xampp\htdocs\wordpress-5.9.3\wordpress\wp-content\plugins\contacte\contacte.php à la ligne 24
+
